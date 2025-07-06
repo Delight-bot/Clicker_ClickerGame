@@ -349,6 +349,58 @@ MonoBehaviour:
   upgradeDatabase: {fileID: 11400000, guid: 6b0e214beba1a5b4d95397b34428417f, type: 2}
   shopUIParent: {fileID: 540295288}
   upgradeUIPrefab: {fileID: 5122997315498906708, guid: eabf0712c0f7af04b8884bc393e7b886, type: 3}
+--- !u!1 &358385071
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 358385073}
+  - component: {fileID: 358385072}
+  m_Layer: 0
+  m_Name: CoinSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &358385072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358385071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b7ce42da32c0d4458fd17bc5826f28b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coinPrefabs:
+  - {fileID: 1422687713707367237, guid: 454c8f0f1ec3a3e428caf626dbac516f, type: 3}
+  - {fileID: 4339249832220485957, guid: 7d61b6fa895526f4196e51354b1243a0, type: 3}
+  - {fileID: 6325412340135321760, guid: fef649d3c1506bc4484f32fca69f2c44, type: 3}
+  spawnInterval: 2
+  yMin: -2
+  yMax: 2
+  xSpawn: -12
+--- !u!4 &358385073
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358385071}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &400394680
 GameObject:
   m_ObjectHideFlags: 0
@@ -2414,3 +2466,4 @@ SceneRoots:
   - {fileID: 1766648467}
   - {fileID: 959257353}
   - {fileID: 927491474}
+  - {fileID: 358385073}
