@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c2717e5fbd74f07458201c68448e0e5f, type: 3}
-  m_Name: 2
+  m_Name: 7
   m_EditorClassIdentifier: 
-  upgradeName: Heelys 2.0
-  cost: 55
-  passiveIncomeIncrease: 5
+  upgradeName: Parkour Training
+  cost: 3500
+  passiveIncomeIncrease: 120
   icon: {fileID: 0}

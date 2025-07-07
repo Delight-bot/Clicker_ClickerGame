@@ -200,7 +200,7 @@ Transform:
   m_GameObject: {fileID: 97863339}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 18.8577, y: -0.0821, z: 0}
+  m_LocalPosition: {x: 18.8577, y: -0.0821, z: 0.4}
   m_LocalScale: {x: -19.092, y: 10.690224, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -486,9 +486,9 @@ MonoBehaviour:
   - {fileID: 6325412340135321760, guid: fef649d3c1506bc4484f32fca69f2c44, type: 3}
   - {fileID: 587131979537588628, guid: dce59056f53ebc44590f88af677ff520, type: 3}
   spawnInterval: 2
-  yMin: -2
-  yMax: 2
-  xSpawn: -12
+  yMin: 0
+  yMax: 1
+  xSpawn: 12
 --- !u!4 &358385073
 Transform:
   m_ObjectHideFlags: 0
@@ -1327,7 +1327,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8282b5125f99b404aa83c2e4abce3454, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  passiveIncomeAmount: 1
+  passiveIncomeAmount: 0
 --- !u!4 &898086927
 Transform:
   m_ObjectHideFlags: 0
@@ -1424,7 +1424,7 @@ Transform:
   m_GameObject: {fileID: 927491471}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.2343, y: -0.0821, z: 0}
+  m_LocalPosition: {x: -0.2343, y: -0.0821, z: 0.4}
   m_LocalScale: {x: 19.092, y: 10.690224, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2088,7 +2088,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a37fb2390b9d4948bc9f9aa120b410d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: 15
+  jumpForce: 20
   isGrounded: 0
 --- !u!4 &1538089053
 Transform:
@@ -2645,7 +2645,7 @@ GameObject:
   - component: {fileID: 2105712063}
   - component: {fileID: 2105712062}
   m_Layer: 0
-  m_Name: PointManager
+  m_Name: PointsManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

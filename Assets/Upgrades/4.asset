@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2717e5fbd74f07458201c68448e0e5f, type: 3}
   m_Name: 4
   m_EditorClassIdentifier: 
-  upgradeName: Item 4
+  upgradeName: 'Power Walk Playlist '
   cost: 250
   passiveIncomeIncrease: 25
   icon: {fileID: 0}

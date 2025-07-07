@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2717e5fbd74f07458201c68448e0e5f, type: 3}
   m_Name: 1
   m_EditorClassIdentifier: 
-  upgradeName: Item 1
+  upgradeName: Turbo Sneakers
   cost: 10
   passiveIncomeIncrease: 1
   icon: {fileID: 0}

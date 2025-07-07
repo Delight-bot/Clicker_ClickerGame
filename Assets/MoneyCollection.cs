@@ -9,7 +9,7 @@ public class Coin : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             // Increase score or money
-            PointManager.Instance.AddPoints(value); 
+            PointsManager.Instance.AddPoints(value); 
             Destroy(gameObject);  // Remove coin after collection
         }
     }

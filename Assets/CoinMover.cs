@@ -6,7 +6,7 @@ public class CoinMover : MonoBehaviour
 
     void Update()
     {
-        transform.Translate(Vector3.right * speed * Time.deltaTime);
+        transform.Translate(-Vector3.right * speed * Time.deltaTime);
 
         // Destroy if it moves too far off screen
         if (transform.position.x > 20f)
